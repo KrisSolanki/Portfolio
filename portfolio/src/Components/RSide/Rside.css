@@ -1,0 +1,13 @@
+.apps_link li{
+    text-decoration: none;
+    /* padding-top: 50%; */
+    /* padding-left: 28px; */
+
+}
+.right{
+    display: flex;
+    width: 10%;
+    height: 100%;
+    position: sticky;
+
+}

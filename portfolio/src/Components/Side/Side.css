@@ -1,0 +1,14 @@
+
+.Left_con{
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: flex-end;
+}
+.left{
+    width: 10%;
+    height: 100%;
+    position: sticky;
+    background: black;
+    color: white;
+
+}
