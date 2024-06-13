@@ -1,14 +1,31 @@
 
-.Left_con{
-    /* display: inline-flex; */
+.Left_con {
     display: flex;
-    justify-content: flex-end;
-}
-.left{
-    width: 10%;
+    width: 6%;
     height: 100%;
-    position: sticky;
-    background: black;
-    color: white;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    align-items: center;
+    top: 0;
+}
 
+.left {
+
+    transform: rotate(90deg);
+
+}
+
+.left a {
+    text-decoration: none;
+   
+    color: inherit;
+  
+    transition: 0.2s ease-in-out;
+}
+
+.left a:hover {
+    /* transform: translate(-5px,-5px); */
+    transition: 0.2s ease-in;
+    color: #0ba668;
 }

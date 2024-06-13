@@ -1,13 +1,53 @@
-.apps_link li{
+.right {
+    display: flex;
+    top: 0;
+    /* width: 16vh; */
+    width: 134px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+}
+/* .apps_link svg {
+    size: 10px;
+} */
+.apps_link li {
     text-decoration: none;
     /* padding-top: 50%; */
     /* padding-left: 28px; */
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
 }
-.right{
+.apps_link {
     display: flex;
-    width: 10%;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width: 100%;
     height: 100%;
-    position: sticky;
+    justify-content: center;
+}
+
+.apps_link li a {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Inherit color from parent */
+}
+
+.apps_link li {
+    transition: 0.2s ease-out;
+    /* list-style: none; */
+}
+
+.apps_link li:hover {
+    transform: translate(0, -5px);
+    transition: 0.2s ease-in-out;
+    color: #0ba668;
 
 }

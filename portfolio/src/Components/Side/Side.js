@@ -1,6 +1,6 @@
 import React from 'react'
-import '../Content/Content.css'
-
+// import '../Content/Content.css'
+import './Side.css'
 const Side = () => {
   return (
     
