@@ -1,13 +1,13 @@
 
 .Left_con {
     display: flex;
-    width: 6%;
-    height: 100%;
+    width: 134px;
+    height: 87%;
     justify-content: center;
     position: fixed;
     right: 0;
     align-items: center;
-    top: 0;
+    top: 87px;
 }
 
 .left {
