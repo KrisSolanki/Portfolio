@@ -1,4 +1,3 @@
-
 /* * {
   margin: 0;
   padding: 0;
@@ -12,6 +11,7 @@
   align-items: center;
   background: black;
   color: green;
+  position: relative;
 }
 
 .K {
@@ -22,7 +22,7 @@
   align-items: center;
   font-size: 2rem;
   overflow: hidden;
-  position: relative;
+  position: absolute;
   color: green;
 }
 
@@ -30,6 +30,7 @@
   position: absolute;
   width: 200px;
   height: 200px;
+  /* animation: reveal 2s; */
 }
 
 .svg_loader {
@@ -45,8 +46,9 @@
   stroke-linecap: round;
   stroke-dasharray: 628; /* This is the circumference of the circle */
   stroke-dashoffset: 628; /* Start with the stroke hidden */
-  animation: progress 2s linear forwards;
+  animation: progress 2s ease-in-out forwards;
 }
+
 
 @keyframes progress {
   0% {

@@ -13,7 +13,7 @@
 .left {
 
     transform: rotate(90deg);
-
+    margin-bottom:100px;
 }
 
 .left a {
